@@ -1,0 +1,46 @@
+//
+// Prefix header for all source files of the 'WXWeibo' target in the 'WXWeibo' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <CoreText/CoreText.h>
+#endif
+
+
+#import "WXHLGlobalUICommon.h"
+//#import "CONSTS.h"
+#import "UIViewExt.h"
+
+
+//获取设备的物理高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//获取设备的物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define kAppKey @"2076931958"
+#define kAppSecret @"be06f50c78b2f3b6a2cb63238e14282e"
+#define kRedirectURI @"https://api.weibo.com/oauth2/default.html"
+
+#define Color(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+//主题颜色
+#define kNavigationBarTitleLabel @"kNavigationBarTitleLabel"
+#define kThemeListLabel @"kThemeListLabel"
+
+#define kReloadWeiboTableNotification @"kReloadWeiboTableNotification"
+
+#define kThemeName @"kThemeName"
+#define kPicMode @"kPicMode"
+#define LargePicMode 1
+#define SmallPicMode 0
+

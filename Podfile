@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+pod 'MMDrawerController', '~> 0.5.7'
+pod 'ASIHTTPRequest', '~> 1.8.2'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'WeiboSDK', :git => 'https://github.com/sinaweibosdk/weibo_ios_sdk.git'
+pod 'JSONKit', '~> 1.5pre'
+pod 'RTLabel', '~> 1.0.1'
+pod 'RegexKitLite', '~> 4.0'
+pod 'EGOTableViewPullRefresh', '~> 0.1.0'
