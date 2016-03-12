@@ -9,7 +9,7 @@
 #ifndef AppKey_h
 #define AppKey_h
 
-#define kAppKey @"2076931958"
-#define kAppSecret @"be06f50c78b2f3b6a2cb63238e14282e"
+#define kAppKey @""
+#define kAppSecret @""
 
 #endif /* AppKey_h */
