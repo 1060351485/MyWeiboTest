@@ -27,8 +27,6 @@
 //获取设备的物理宽度
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 
-#define kAppKey @"2076931958"
-#define kAppSecret @"be06f50c78b2f3b6a2cb63238e14282e"
 #define kRedirectURI @"https://api.weibo.com/oauth2/default.html"
 
 #define Color(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]

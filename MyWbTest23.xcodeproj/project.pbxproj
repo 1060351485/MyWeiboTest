@@ -1115,6 +1115,7 @@
 		18BADC5C1C8478D500371DF7 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableView.m; path = BaseView/BaseTableView.m; sourceTree = "<group>"; };
 		18BADC5E1C847B7C00371DF7 /* WeiboTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeiboTableView.h; path = Home/WeiboTableView.h; sourceTree = "<group>"; };
 		18BADC5F1C847B7C00371DF7 /* WeiboTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeiboTableView.m; path = Home/WeiboTableView.m; sourceTree = "<group>"; };
+		18BF0BE61C946E3A00AD344C /* AppKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppKey.h; sourceTree = "<group>"; };
 		18F3C49A1C832B1F00CFEAD8 /* WeiboCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeiboCell.h; path = Home/WeiboCell.h; sourceTree = "<group>"; };
 		18F3C49B1C832B1F00CFEAD8 /* WeiboCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeiboCell.m; path = Home/WeiboCell.m; sourceTree = "<group>"; };
 		18F3C49D1C832B4400CFEAD8 /* WeiboView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeiboView.h; path = Home/WeiboView.h; sourceTree = "<group>"; };
@@ -1693,6 +1694,7 @@
 				1883FCE11C7D43450078EE96 /* UIUtils.h */,
 				1883FBE51C7C764F0078EE96 /* AppDelegate.m */,
 				1883FCE21C7D4F0C0078EE96 /* WXWeibo-Prefix.pch */,
+				18BF0BE61C946E3A00AD344C /* AppKey.h */,
 				1883FBE21C7C764F0078EE96 /* main.m */,
 				1883FCB31C7C83D70078EE96 /* Podfile */,
 			);
